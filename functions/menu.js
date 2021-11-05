@@ -1,6 +1,6 @@
 exports.menu = (v) => {
   return `
-╭─⊷❲ *MAIN* ❳
+╭─€ *MAIN* ×
 ├ ${v}menu
 ├ ${v}help
 ├ ${v}info
@@ -9,7 +9,7 @@ exports.menu = (v) => {
 ├ ${v}report <text>
 ├ ${v}chatbot on/off
 ╰────────
-╭─⊷❲ *FUN* ❳
+╭─€ *FUN* ×
 ├ ${v}dilan
 ├ ${v}ilham
 ├ ${v}gombal
@@ -17,12 +17,12 @@ exports.menu = (v) => {
 ├ ${v}fakta
 ├ ${v}fitnah text/target/text
 ╰────────
-╭─⊷❲ *KERANG AJAIB* ❳
+╭─€ *KERANG AJAIB* ×
 ├ ${v}apakah
 ├ ${v}kapankah
 ├ ${v}siapakah
 ╰────────
-╭─⊷❲ *GAME* ❳
+╭─€ *GAME* ×
 ├ ${v}truth
 ├ ${v}dare
 ├ ${v}asahotak
@@ -34,20 +34,20 @@ exports.menu = (v) => {
 ├ ${v}tekateki
 ├ ${v}suit gunting/batu/kertas
 ╰────────
-╭─⊷❲ *STICKER* ❳
+╭─€ *STICKER* ×
 ├ ${v}sticker
 ├ ${v}sticker <author>|<packname>
 ├ ${v}take <author>|<packname>
 ├ ${v}toimg
 ╰────────
-╭─⊷❲ *PICTURE* ❳
+╭─€ *PICTURE* ×
 ├ ${v}pinterest <query>
 ├ ${v}cogan
 ├ ${v}cecan
 ├ ${v}cyberpunk
 ├ ${v}wallpaper
 ╰────────
-╭─⊷❲ *TOOLS* ❳
+╭─€ *TOOLS* ×
 ├ ${v}fakethumb
 ├ ${v}say <text>
 ├ ${v}tomp3
@@ -56,17 +56,17 @@ exports.menu = (v) => {
 ├ ${v}del
 ├ ${v}delete
 ╰────────
-╭─⊷❲ *INFORMASI* ❳
+╭─€ *INFORMASI* ×
 ├ ${v}covid
 ├ ${v}translate <lang><text>
 ╰────────
-╭─⊷❲ *INTERNET* ❳
+╭─€ *INTERNET* ×
 ├ ${v}playstore <query>
 ├ ${v}yts <query>
 ├ ${v}ytsearch <query>
 ├ ${v}cerpen
 ╰────────
-╭─⊷❲ *DOWNLOAD* ❳
+╭─€ *DOWNLOAD* ×
 ├ ${v}igdl <link>
 ├ ${v}igvid <link>
 ├ ${v}igimg <link>
@@ -78,7 +78,7 @@ exports.menu = (v) => {
 ├ ${v}play <query>
 ├ ${v}ytmp3 <link>
 ╰────────
-╭─⊷❲ *TEXT GENERATOR* ❳
+╭─€ *TEXT GENERATOR* ×
 ├ ${v}namaninja <text>
 ├ ${v}purba <text>
 ├ ${v}typewriter <text>
@@ -86,7 +86,7 @@ exports.menu = (v) => {
 ├ ${v}castle <text>
 ├ ${v}sans <text>
 ╰────────
-╭─⊷❲ *DATABASE* ❳
+╭─€ *DATABASE* ×
 ├ ${v}addimg <text>
 ├ ${v}addvid <text>
 ├ ${v}addstik <text>
@@ -97,21 +97,21 @@ exports.menu = (v) => {
 ├ ${v}getvn <text>
 ├ ${v}listmedia
 ╰────────
-╭─⊷❲ *ABSENSI* ❳
+╭─€ *ABSENSI* ×
 ├ ${v}absenstart
 ├ ${v}delabsen
 ├ ${v}cekabsen
 ├ ${v}absen
 ├ ${v}izin
 ╰────────
-╭─⊷❲ *VOTING* ❳
+╭─€ *VOTING* ×
 ├ ${v}voting <text>
 ├ ${v}delvote
 ├ ${v}cekvote
 ├ ${v}vote
 ├ ${v}devote
 ╰────────
-╭─⊷❲ *ADMIN* ❳
+╭─€ *ADMIN* ×
 ├ ${v}open
 ├ ${v}close
 ├ ${v}link
@@ -138,7 +138,7 @@ exports.menu = (v) => {
 ├ ${v}simulasi welcome
 ├ ${v}simulasi bye
 ╰────────
-╭─⊷❲ *GROUP* ❳
+╭─€ *GROUP* ×
 ├ ${v}welcome on
 ├ ${v}welcome off
 ├ ${v}antidelete on
@@ -150,7 +150,7 @@ exports.menu = (v) => {
 ├ ${v}antiviewonce on
 ├ ${v}antiviewonce off
 ╰────────
-╭─⊷❲ *OWNER* ❳
+╭─€ *OWNER* ×
 ├ ${v}join <link>
 ├ ${v}addpremium @user
 ├ ${v}delpremium @user
