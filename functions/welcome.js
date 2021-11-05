@@ -7,7 +7,7 @@ const welAwal = `*Selamat Datang* @tag di @group
 *Bio* : @about 
 *Tanggal* : @tanggal 
 
-Jangan lupa baca deskripsi group ya`;
+Admin Selalu Benar 🗿`;
 
 const byeAwal = `Selamat tinggal @tag`;
 /**
