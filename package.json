@@ -1,14 +1,14 @@
 {
-  "name": "whatsapp-bot",
+  "name": "wa bot",
   "version": "0.0.8",
-  "description": "WhatsApp Bot using Baileys",
+  "description": "WhatsApp Bot",
   "main": "main.js",
   "directories": {
     "lib": "library"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrfzvx12/whatsapp-bot.git"
+    "url": "git+https://github.com/RiasBack/youtube.git"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.0",
@@ -61,10 +61,10 @@
     "start": "node start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ma'ruf",
+  "author": "ArakTuak",
   "license": "MIT license",
   "bugs": {
-    "url": "https://github.com/mrfzvx12/whatsapp-bot/issues"
+    "url": "https://github.com/RiasBack/youtube/issues"
   },
-  "homepage": "https://github.com/mrfzvx12/whatsapp-bot/"
+  "homepage": "https://github.com/RiasBack/youtube/"
 }
