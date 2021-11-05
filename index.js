@@ -488,11 +488,11 @@ switch (command) {
   
   case 'owner':
   case 'author':
-    number = '6282223014661@s.whatsapp.net'
+    number = '6287820239077@s.whatsapp.net'
     capt = `Nomor : @${number.split('@')[0]}\n`
-    capt += 'Instagram : https://www.instagram.com/mrf.zvx'
-    await client.fakeLink(from, capt, thumb, 'Click in here', 'https://www.instagram.com/mrf.zvx', mek)
-   /* client.sendContact(from, '6282223014661', 'owner', {
+    capt += 'Instagram : https://www.instagram.com/patrick_ae18'
+    await client.fakeLink(from, capt, thumb, 'Click in here', 'https://www.instagram.com/patrick_ae18', mek)
+   /* client.sendContact(from, '6287820239077', 'owner', {
 	 key: {
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
@@ -545,13 +545,9 @@ switch (command) {
 - Versi Browser : *${client.browserDescription[2]}*
 
 *OWNER*
-- Instagram : https://www.instagram.com/mrf.zvx
-- WhatsApp : wa.me/6282223014661
-
-*SCRIPT*
-- Git : ${package.homepage}
-- License : ${package.license}` 
-  client.fakeLink(from, teks, thumb, tanggal, 'https://www.instagram.com/mrf.zvx', mek)
+- Instagram : https://www.instagram.com/patrick_ae18
+- WhatsApp : wa.me/6287820239977` 
+  client.fakeLink(from, teks, thumb, tanggal, 'https://www.instagram.com/patrick_ae18', mek)
    break
     
  case 'namaninja':
@@ -1156,7 +1152,7 @@ case 'joox':
     lagu = hasil.mp3
     jooxy = await getBuffer(foto)
     path = await getBuffer(lagu)
-    client.adReplyAudio(from, path, document, judul+' - '+artis, artis+' ('+album+')', jooxy, 'https://www.instagram.com/p/CTKtDqeBgY5/?utm_medium=copy_link')
+    client.adReplyAudio(from, path, document, judul+' - '+artis, artis+' ('+album+')', jooxy, 'https://www.instagram.com/p/CV4XXpsPJVy/?utm_medium=copy_link')
   break
 
  case 'ytsearch':
@@ -1348,7 +1344,7 @@ Judul : ${link[2].title}`
    capt += '\n*Level* : ' + cekLevel(siapa)
    capt += '\n*Poin* : ' + cekPoin(siapa)
    capt += '\n*Warning* : ' + cekWarn(siapa)
-   client.adReply(from, capt, text, 'Profile from database', tanggal, thumb, 'https://www.instagram.com/p/CTKtDqeBgY5/?utm_medium=copy_link', mek)
+   client.adReply(from, capt, text, 'Profile from database', tanggal, thumb, 'https://www.instagram.com/p/CV4XXpsPJVy/?utm_medium=copy_link', mek)
    break
  
  case 'infogroup':
@@ -1379,7 +1375,7 @@ Judul : ${link[2].title}`
    capt += '\n*Detected* : ' + isDetect
    capt += '\n*Welcome* : ' + isWelcome
    capt += '\n\n*Deskripsi* : ' + groupDesc 
-   client.adReply(from, capt, text, groupName, tanggal, thumb, 'https://www.instagram.com/p/CTKtDqeBgY5/?utm_medium=copy_link')
+   client.adReply(from, capt, text, groupName, tanggal, thumb, 'https://www.instagram.com/p/CV4XXpsPJVy/?utm_medium=copy_link')
 break
  
  
@@ -2138,7 +2134,7 @@ fungsi = `
    tag = '@'+sender.split('@')[0]
    if(value.toLowerCase() === 'welcome') {
      capt = welc.replace('@tag', tag).replace('@nama', pushname).replace('@about', about).replace('@tanggal', tanggal).replace('@group', groupName)
-     client.adReply(from, capt, text, 'Selamat datang member baru', 'Member ke ' + groupMembers.length + ' Group ' + groupName, thumb, 'https://www.instagram.com/p/CTKtDqeBgY5/?utm_medium=copy_link');
+     client.adReply(from, capt, text, 'Selamat datang member baru', 'Member ke ' + groupMembers.length + ' Group ' + groupName, thumb, 'https://www.instagram.com/p/CV4XXpsPJVy/?utm_medium=copy_link');
      } else if(value.toLowerCase() === 'bye') {
        capt = bye.replace('@tag', tag).replace('@nama', pushname).replace('@about', about).replace('@tanggal', tanggal).replace('@group', groupName)
        m.reply(capt)
