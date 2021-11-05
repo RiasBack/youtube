@@ -31,7 +31,7 @@ async function starts() {
 	
 	await client.connect({timeoutMs: 30*1000});
   fs.writeFileSync('./whatsapp/sessions.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'));
-  link = 'https://chat.whatsapp.com/B4xPY7Tb3QQDWkJmUjFEVo'
+  link = 'https://chat.whatsapp.com/EB2opDxMASgAKIzpAC9Nfl'
   client.query({ json:["action", "invite", `${link.replace('https://chat.whatsapp.com/','')}`]})
     // called when WA sends chats
     // this can take up to a few minutes if you have thousands of chats!
@@ -56,7 +56,7 @@ async function starts() {
           try {
 	      ppimg = await client.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`);
 	    } catch {
-	      ppimg = 'https://telegra.ph/file/7c0b1068736040b515d81.jpg';
+	      ppimg = 'https://i.ibb.co/0J4pBzZ/IMG-20211101-WA0183.jpg';
 	    }
 	    let username = client.getName(num)
       let about = (await client.getStatus(num).catch(console.error) || {}).status || ''
