@@ -173,11 +173,12 @@ referers = [
 'http://eu.battle.net/wow/en/search?q=']
 
 
-ifpasswd = "daniwibu"
-
     print("")
     print("Input PassWord")
     print("")
+	
+	ifpasswd = "daniwibu"
+	
     for i in range(9999999999):
         inputm1 = input(" ArakTuak/PWD > ")
         j=(9999999999)
