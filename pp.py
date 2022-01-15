@@ -331,9 +331,7 @@ def run():
                 s.send(str.encode(request))
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
-            print(f"WhoMe Request send => {ip} With Port => {port}")
-        except :
-            print(f"Rush request send to {ip} With Port {port}")
+		except :
             s.close()
 
 for y in range(threads):
