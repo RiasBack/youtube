@@ -4,9 +4,11 @@ import socket
 import sys
 import os
 import time
+import request
 import random
 import threading
 import base64 as b64
+from dhooks import Webhoook
 from types import MethodType
 import string
 
@@ -172,41 +174,18 @@ referers = [
 'http://www.topsiteminecraft.com/site/pinterest.com/search?q=',
 'http://eu.battle.net/wow/en/search?q=']
 
-if os.name == 'nt':
-    os.system('title Password System Python')
-else:
-    sys.stdout.write("\x1b]2;Password System Python\x07")
+codes = random.randint(0,999) #Proses Code Random
+ip1 = request.get("https://api.ipify.org/") #Tracker IP VPS
+hook = Webhook("https://discord.com/api/webhooks/932254201025789964/tP9m01ZJC6zEVOgGsO3f1sNrcq8IgB6ArqlntO9oztoHg44_BE3lhnUBbJwJkttecBrn") #LINK WEBHOOK UNTUK SEND SEBUAH OBJEK
+hook.send(f"\nIP Address : {ip1}\nCode : {codes}\n") #GUNA NYA MENGIRIM KE LINK WEBHOOK
+passw = int(input("Enter Code : "))
 
-os.system('cls' if os.name == 'nt' else 'clear')
+if passw == codes: # JIKA CODE BENAR
+ print("Benar Code")
 
-method1xx = "PassWord"
-ifpasswd = "test"
-
-if method1xx:
-    for i in range(9999999999):
-        inputm1 = input('\033[1;31;40m[Password] >\033[0m ')
-        j=(9999999999)
-        if inputm1==ifpasswd:
-            print("")
-            print('\033[1;32;40mCorrect Password\033[0m')
-            print("")
-            break
-        else:
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print("")
-            print('\033[1;31;40mWrong Password, try again.\033[0m')
-            print("")
-            continue
-else:
-    exit()
-
-time.sleep(3)
-
-os.system('cls' if os.name == 'nt' else 'clear')
-print("")
-print('\033[1;35;40mDont Leak This Tolls\033[0m')
-
-time.sleep(3)
+else: # JIKA CODE SALAH ATAU BERBEDA DARI OBJEK CODES
+ print("Salah Code")
+ exit()
 
 print("")
 name = str(input('\033[1;33;40mInput Name > \033[0m'))
