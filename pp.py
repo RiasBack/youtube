@@ -310,7 +310,8 @@ def run():
                 s.send(str.encode(request))
                 s.sendall(str.encode(request))
                 s.sendall(str.encode(request))
-		except :
+            print(f"WhoMe Request send => {ip} With Port => {port}")
+        except :
             s.close()
 
 for y in range(threads):
